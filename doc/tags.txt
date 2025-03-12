@@ -1,0 +1,2 @@
+List of semantic elements used (and a brief why):
+1. 
