@@ -1,4 +1,8 @@
-List of semantic elements used (and a brief why):
+List of elements used (and a brief why for REFLECTION):
+
+Note: Pag-isipan muna kung i-add yung non-semantics, esp yung "components" lang ng isang main tag talaga (like yung mga <td>, <li>, etc.)
+
+Semantic Elements:
 
 1. `<header>`: used for navigation bar at the top of the page; serves as introductory content of the page, containing the PUP Sintang Pusa logo and name, navigational links, and a call-to-action button
 
@@ -18,4 +22,24 @@ List of semantic elements used (and a brief why):
 
 8. `<table>`: used to structure the data for the events section, which displays the event details in rows 
 
-9. `<span>`: used to style inline texts, such as the organizational names in the organizational ribbon.
+9. `<footer>`: used to
+
+Non-semantic Elements:
+
+1. `<div>`: used as a generic container to group and structure content without adding meaning; helps with layout and styling
+
+2. `<a>`: used to create hyperlinks that navigate users to different sections of the page (which allows smooth scrolling to relevant content) or external links
+
+3. `<span>`: used to style inline texts, such as the organizational names in the organizational ribbon.
+
+4. `<h1>, <h2>, <h4>`: used to define the hierarchy of content on some parts (<h1> for main titles, <h4> for smaller headings)
+
+5. `<p>`: used to define paragraphs for the site's textutal contents, like descriptions of events, etc.
+
+6. `<td>`: unsure, more on component na lang sha
+
+7. `<th>`: unsure [1], more on component na lang sha
+
+8. `<ul>`: unsure pero pwedeng i-consider i believe(?)
+
+9. `<li>`: unsure [2], more on component na lang sha
