@@ -1,2 +1,15 @@
 List of semantic elements used (and a brief why):
-1. 
+
+1. `<header>`: used for navigation bar at the top of the page; serves as introductory content of the page, containing the PUP Sintang Pusa logo and name, navigational links, and a call-to-action button
+
+2. `<nav>`: used to identify the navigational links; placed inside the header to tell the user that this is the primary navigation area of the website that they can use
+
+3. `<main>`: used to contain the primary content of the page, which encompasses the Hero section up to the Join Us section; placed between header and footer
+
+4. `<section`>: used to define thematic areas/groupings of the content within the page
+- The hero section contains the main headline and call-to-action of the organization
+- The story section contains the background story of the establishment of PUP Sintang Pusa
+
+5. `<figure>`: used to contain the hero section image; usually serves as container for images, illustrations, diagrams, etc.
+
+6. `<button>`: used for interactive, clickable buttons including "Join Our Mission" to trigger an action
