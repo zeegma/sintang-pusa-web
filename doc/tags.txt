@@ -13,3 +13,9 @@ List of semantic elements used (and a brief why):
 5. `<figure>`: used to contain the hero section image; usually serves as container for images, illustrations, diagrams, etc.
 
 6. `<button>`: used for interactive, clickable buttons including "Join Our Mission" to trigger an action
+
+7. `<img>`: used to display images in the page, such as the icon visuals
+
+8. `<table>`: used to structure the data for the events section, which displays the event details in rows 
+
+9. `<span>`: used to style inline texts, such as the organizational names in the organizational ribbon.
