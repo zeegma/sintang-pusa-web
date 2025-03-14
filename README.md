@@ -87,6 +87,22 @@ This repository contains a semantic website created for Sintang Pusa Organizatio
 
 <!-- APPLICATION SNAPSHOTS -->
 ## Application Snapshots
+### Hero Section
+![1 sp](https://github.com/user-attachments/assets/915e5781-50dd-4c94-8453-6cb8f43843f3)
+### Story Section
+![2 sp](https://github.com/user-attachments/assets/48302cc5-f37d-4ec0-a309-50eb36ee7f91)
+### Events Section
+![3 sp](https://github.com/user-attachments/assets/c3f50551-a676-49e1-8470-d0fff69e6467)
+![4 sp](https://github.com/user-attachments/assets/bd426613-6116-4117-b138-5dc72d79ffc5)
+### Events Section
+![5 sp](https://github.com/user-attachments/assets/727bc416-ae88-4472-b1a7-1c29b50d54a0)
+### Team Section
+![6 sp](https://github.com/user-attachments/assets/258826d6-baae-457f-8647-09aca3759b61)
+![7 sp](https://github.com/user-attachments/assets/f91adcc0-0f96-42ed-a6ed-7bacc7f14d99)
+### Join Us Section
+![8 sp](https://github.com/user-attachments/assets/9aef1bc5-b921-4921-9bb1-8a11f4742797)
+### Footer Section
+![9 sp](https://github.com/user-attachments/assets/95ed78e7-100e-497c-b860-34d847e59310)
 
 <!-- CONTRIBUTOR'S TABLE -->
 ## Contributors
