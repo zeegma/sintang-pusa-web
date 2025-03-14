@@ -121,7 +121,7 @@ html {
 }
 
 .cta-button-yellow:hover {
-  background-color: #f9bb2a;
+  background-color: #4dc7b0;
 }
 
 /* Hero Section */
@@ -176,7 +176,9 @@ html {
 }
 
 .cta-button:hover {
-  background: #333;
+  background: #4dc7b0;
+  border: 1px solid #000;
+  color: #000;
 }
 
 .hero-figure {
@@ -187,11 +189,14 @@ html {
   align-items: center;
   justify-content: center;
   border: 1px solid #0f1419;
+  position: relative;
 }
 
 .cat-image {
   max-width: 100%;
   height: auto;
+  position: relative;
+  top: 50px;
 }
 
 /* Story Section */
@@ -245,7 +250,9 @@ html {
 }
 
 .read-more-button:hover {
-  background: #333;
+  background: #ffc847;
+  border: 1px solid #000;
+  color: #000;
 }
 
 .read-more-button i {
@@ -262,7 +269,6 @@ html {
   padding: 0;
   margin: 0 0 100px 0;
   font-family: Arial, sans-serif;
-  border-bottom: 8px solid #000;
 }
 
 #goals > div {
@@ -297,7 +303,7 @@ html {
   grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
   flex: 1;
-  margin: 3rem 0 5rem 0;
+  margin: 5rem 0 0 0;
 }
 
 .goals-items img[alt="white-grid-background"] {
@@ -348,7 +354,8 @@ html {
 
 /* Events Section */
 #events {
-  padding: 0;
+  border-top: 8px solid #000;
+  padding-top: 5rem;
   background-color: #fff;
   overflow-x: hidden;
 }
@@ -462,10 +469,11 @@ td {
 }
 
 .event-button:hover {
-  background-color: #fff;
+  background-color: #4dc7b0;
   transform: translateY(-2px);
   box-shadow: 4px 4px 0 rgba(0, 0, 0, 1);
 }
+
 
 .organization-ribbon {
   display: flex;
@@ -622,6 +630,7 @@ td {
 
 .facebook-button:hover {
   transform: translateY(-2px);
+  background-color: #4dc7b0;
 }
 
 i {
@@ -648,10 +657,11 @@ i {
   padding: 10px 15px;
   border: 1px solid #000;
   margin-top: auto;
+  cursor: pointer;
 }
 
 .back-to-top:hover {
-  background: #888686;
+  background: #4dc7b0;
 }
 
 .back-to-top a {
@@ -682,6 +692,11 @@ footer {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto 30px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .footer-logo {
@@ -733,7 +748,7 @@ footer {
 .social-icon:hover {
   background-color: #4dc7b0;
   color: #000;
-  box-shadow: 3px 3px 0 #ccc;
+  box-shadow: 3px 3px 0 #fff;
   transform: translateY(-3px);
 }
 
