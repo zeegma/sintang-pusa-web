@@ -360,6 +360,7 @@ html {
   border: 1px solid #000;
   box-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
   position: relative;
+  margin-bottom: 6rem;
 }
 
 table {
@@ -440,7 +441,6 @@ td {
   flex-wrap: wrap;
   padding: 1rem;
   background-color: #000;
-  margin-top: 6rem;
   color: #fff;
 }
 
@@ -450,8 +450,84 @@ td {
 
 .ribbon-dot {
   display: inline-block;
-  width: 6px;
-  height: 6px;
+  width: 12px;
+  height: 12px;
   background-color: #dea82a;
   border-radius: 50%;
+}
+
+#officers {
+  padding-top: 4rem;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  font-family: "Bricolage Grotesque", "Segoe UI", sans-serif;
+}
+
+#officers > div {
+  margin: 0 auto;
+}
+
+.officers-header {
+  text-align: center;
+  margin-bottom: 4.5rem;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.officers-header h1 {
+  font-size: 3rem;
+  color: #000;
+  margin-bottom: 4rem 0 1rem 0;
+  font-weight: bold;
+}
+
+.officers-header p {
+  font-size: 1.2rem;
+  color: #000;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.officers-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.officer-box-yellow,
+.officer-box-green {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 7rem 1rem 5rem 1rem;
+  position: relative;
+  border: 1px solid #000;
+}
+
+.officer-box-yellow {
+  background-color: #FFD24C;
+}
+
+.officer-box-green {
+  background-color: #4DC7B0;
+}
+
+.officer-paws {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.officer-box-yellow h4,
+.officer-box-green h4 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #000;
+}
+
+.officer-box-yellow p,
+.officer-box-green p {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
 }
