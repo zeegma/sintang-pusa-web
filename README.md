@@ -1,19 +1,159 @@
-# GUIDELINES
+<a id="readme-top"></a>
 
-Please consider the following on creating the HTML file:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/zeegma/sintang-pusa-web">
+    <img src="https://github.com/user-attachments/assets/ea4bce4f-d2ad-44e8-b0b6-0b4d086c0e34" alt="Logo" width="140" height="140">
+  </a>
 
-- Kebab case should be used on naming attribute values (e.g. kebab-case)
-- Follow 2 spaces indentation (already set the file for 2 spaces so keep it consistent on your end)
-- Separate sections with a new line
-- Do NOT separate the \<head> and \<body> tag with a new line
-- Add comments on necessary parts only, don't <i>overdocument</i> the markup code
-- Suggest more guidelines to follow here (I may have missed some important ones)
+  <h1 align="center">Sintang Pusa Website</h1>
+  <p align="center">
+    A semantic website for sintang pusa
+    <br />
+    <a href="https://zeegma.github.io/sintang-pusa-web/"><strong>Visit Us Here »</strong></a>
+    <br />
+    <br />
+    <a href="#demo">View Demo</a>
+    ·
+    <a href="https://github.com/zeegma/sintang-pusa-web/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/zeegma/sintang-pusa-web/issues">Request Feature</a>
+  </p>
+</div>
 
-# TODO
+<!-- PROJECT DEMO -->
+## Demo
+<div align="center">
+  <img src="" alt="Demo" width="80%">
+</div>
 
-Please mark the checkbox once your part is done:
+<!-- ABOUT THE PROJECT -->
+## About The Project
+This repository contains a semantic website created for Sintang Pusa Organization in Polytechnic University of the Philippines (PUP). The project focuses on implementing proper HTML formatting and structure following semantic web principles.
 
-- [ ] UI
-- [ ] HTML
-- [ ] CSS
-- [ ] Reflection
+<!-- NOTE -->
+> **Note**  
+> This website is currently a **work in progress**.  
+> - The website is not yet optimized for different screen sizes (e.g., mobile, tablet, etc.). Responsive design will be implemented in future updates.  
+> - The content used in this project is temporary and does not reflect the final data. Proper data will be added once available.  
+
+<!-- TABLE OF CONTENTS -->
+## Table Of Contents
+<ol>
+  <li>
+    <a href="#about-the-project">About The Project</a>
+    <ul>
+      <li><a href="#table-of-contents">Table Of Contents</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#technologies">Technologies Used</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#application-snapshots">Application Snapshots</a>
+  </li>
+  <li>
+    <a href="#contributors">Contributors</a>
+  </li>
+  <li>
+    <a href="#license">License</a>
+  </li>
+</ol> 
+
+<!-- FEATURES -->
+## Features
+### Sections:
+- **Navigation Bar (Header):** Contains the logo, main navigation links, and a "Join Our Mission" call-to-action button.
+- **Hero Section:** Features a prominent headline "For the Cats of PUP, We Serve" with a description and image of a cat named Pogi.
+- **Story Section:** Explains the organization's history, founded in 2019 as a Facebook page that grew into a movement after the loss of a tabby cat named Pogi.
+- **Goals Section:** Showcases six main objectives.
+- **Events Section:** Displays a table of upcoming events with dates, locations, and descriptions.
+- **Officers Section**: Presents the leadership team with their roles
+- **Join Us Section:** Call-to-action area encouraging visitors to help protect PUP's cats with a link to the Facebook page.
+- **Footer:** Contains the logo, tagline, social media links (LinkedIn, Facebook, Instagram, Email), and standard footer links.
+
+<!-- TECHNOLOGIES USED -->
+## Technologies
+- **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)**: The standard markup language for creating the structure and content of the website.
+- **[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)**: Used for styling the website, including layout, colors, fonts, and responsiveness.
+
+### Deployment and Hosting
+- **[GitHub Pages](https://pages.github.com/)**: A free hosting service provided by GitHub to deploy and host static websites directly from a GitHub repository.
+
+### Development Tools  
+- **[Git](https://git-scm.com/)**: Distributed version control system for tracking code changes and collaboration.  
+- **[GitHub](https://github.com/)**: Platform for hosting Git repositories, enabling collaborative development and version control.  
+- **[VS Code](https://code.visualstudio.com/)**: A lightweight but powerful source code editor used for writing and editing HTML and CSS.
+
+<!-- APPLICATION SNAPSHOTS -->
+## Application Snapshots
+
+<!-- CONTRIBUTOR'S TABLE -->
+## Contributors
+<table style="width: 100%; text-align: center;">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Avatar</th>
+        <th>GitHub</th>
+        <th>Contributions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Acelle Krislette Rosales</td>
+        <td><img src="https://avatars.githubusercontent.com/u/143507354?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
+        <td><a href="https://github.com/krislette">krislette</a></td>
+        <td>
+          <b>CSS Designer, HTML Structure:</b> Acelle structured the Footer and Join Us sections. She also designed the Events, Teams, and Join Us parts of the website and deployed it.
+        </td>
+      </tr>
+      <tr>
+        <td>Regina Bonifacio</td>
+        <td><img src="https://avatars.githubusercontent.com/u/116869096?s=400&u=43146b191775802d9ab2f0f721b452ffc52c9efa&v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
+        <td><a href="https://github.com/feiryrej">feiryrej</a></td>
+        <td>
+          <b>CSS Designer:</b> Regina designed the navigation bar, hero section, story section, and goals section. 
+        </td>
+      </tr>
+      <tr>
+        <td>Henry James Carlos</td>
+        <td><img src="https://avatars.githubusercontent.com/u/71052354?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
+        <td><a href="https://github.com/hjcarlos">hjcarlos</a></td>
+        <td>
+          <b>UI Designer, Web Content:</b> Henry is responsible for creating the user interface created in Figma and for inputting content. 
+        </td>
+      </tr>
+      <tr>
+        <td>Syruz Ken Domingo</td>
+        <td><img src="https://avatars.githubusercontent.com/u/141235021?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
+        <td><a href="https://github.com/sykeruzn">sykeruzn</a></td>
+        <td>
+          <b>HTML Structure, Web Content:</b> Syke is assigned to structure the navigation, hero, story, and goals section. He also collected content for our website. 
+        </td>
+      </tr>
+      <tr>
+        <td>Fervicmar Lagman</td>
+        <td><img src="https://avatars.githubusercontent.com/u/116869089?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
+        <td><a href="https://github.com/perbik">perbik</a></td>
+        <td>
+          <b>Writer, Designer:</b> Fervicmar contributes to creating the reflection paper of our group, classifying tags, and designing the paper.
+        </td>
+      </tr>
+      <tr>
+        <td>Hans Christian Queja</td>
+        <td><img src="https://avatars.githubusercontent.com/u/65350664?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
+        <td><a href="https://github.com/HansQueja">HansQueja</a></td>
+        <td>
+          <b>HTML Structure:</b> Hans is one of the developers responsible for structuring the HTML. He structured the events and officers section and acted as our representative for this assignment. 
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- LICENSE -->
+## License
+Distributed under the [Creative Commons Attribution-NoDerivatives 4.0 International](https://github.com/vitorsr/cc/blob/master/CC-BY-ND-4.0.md) License. See [LICENSE](LICENSE) for more information.
+
+<p align="right">[<a href="#readme-top">Back to top</a>]</p>
