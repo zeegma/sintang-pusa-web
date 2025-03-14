@@ -73,7 +73,7 @@ html {
 }
 
 .nav-links a:hover {
-  color: #4ecca3;
+  color: #ffc847;
 }
 
 .cta-button-yellow {
@@ -313,7 +313,7 @@ html {
   line-height: 1.4;
 }
 
-/* Events Section Styles */
+/* Events Section */
 #events {
   padding: 4rem 0 0 0;
   background-color: #fff;
@@ -456,6 +456,7 @@ td {
   border-radius: 50%;
 }
 
+/* Officers Section */
 #officers {
   padding-top: 4rem;
   font-family: Arial, sans-serif;
@@ -483,7 +484,7 @@ td {
 
 .officers-header p {
   font-size: 1.2rem;
-  color: #000;
+  color: #333;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -529,5 +530,235 @@ td {
 .officer-box-green p {
   font-size: 1rem;
   color: #333;
+  margin: 0;
+}
+
+/* Join Us Section */
+#join-us {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.join-us-content {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#join-us h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.join-us-content p {
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.fb-button {
+  margin: 30px 0;
+  background-color: transparent;
+}
+
+.facebook-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFD24C;
+  border: 1px solid black;
+  color: #000;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 1);
+}
+
+.facebook-button:hover {
+  transform: translateY(-2px);
+}
+
+.arrow-icon {
+  margin-left: 10px;
+  transform: rotate(-45deg);
+}
+
+.paw-icon {
+  position: absolute;
+  top: 80px;
+  right: 150px;
+}
+
+.paws-right {
+  width: 200px;
+  height: auto;
+}
+
+.back-to-top {
+  position: absolute;
+  bottom: 0;
+  right: 4rem;
+  background-color: #d9d9d9;
+  padding: 10px 15px;
+  border: 1px solid #000;
+  margin-top: auto;
+}
+
+.back-to-top a {
+  font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.arrow-up {
+  margin-left: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 3rem 0 2rem 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.footer-tagline {
+  display: flex;
+  flex-direction: column;
+}
+
+.organization-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+.organization-motto {
+  font-size: 14px;
+  margin: 0;
+  color: #ccc;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #4DC7B0;
+  color: #4DC7B0;
+  text-decoration: none;
+  position: relative;
+  box-shadow: 3px 3px 0 #4DC7B0;
+}
+
+.social-icon:hover {
+  background-color: #4DC7B0;
+  color: #000;
+  box-shadow: 3px 3px 0 #ccc;
+  transform: translateY(-3px);
+}
+
+.social-icon.linkedin::before {
+  content: "in";
+  font-weight: bold;
+}
+
+.social-icon.facebook::before {
+  content: "f";
+  font-weight: bold;
+}
+
+.social-icon.instagram::before {
+  content: "ig";
+  font-weight: bold;
+}
+
+.social-icon.email::before {
+  content: "✉";
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.footer-links ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #868686;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #4DC7B0;
+}
+
+.copyright {
+  color: #868686;
+  font-size: 14px;
   margin: 0;
 }
