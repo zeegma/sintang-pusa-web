@@ -14,6 +14,34 @@ html {
   scroll-padding-top: 60px;
 }
 
+.white-grid {
+  position: relative;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.white-grid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at center,
+    transparent 30%,
+    rgba(255, 255, 255, 0.8) 90%,
+    rgba(255, 255, 255, 0.95) 100%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -85,13 +113,15 @@ html {
   background-color: #ffc847;
   color: #0f1419;
   font-weight: 600;
+  font-size: 15px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-right: 78px;
+  text-decoration: none;
 }
 
 .cta-button-yellow:hover {
-  background-color: #dea82a;
+  background-color: #f9bb2a;
 }
 
 /* Hero Section */
@@ -142,6 +172,11 @@ html {
   font-weight: 500;
   align-items: normal;
   margin-left: 77px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background: #333;
 }
 
 .hero-figure {
@@ -174,16 +209,7 @@ html {
 #story div {
   position: relative;
   max-width: 800px;
-}
-
-#story img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vh;
-  height: 100vhh;
-  object-fit: cover;
-  z-index: -1;
+  z-index: 1;
 }
 
 .story-title {
@@ -213,6 +239,9 @@ html {
   font-weight: 500;
   align-items: normal;
   margin: 25px;
+  display: inline-flex;
+  text-decoration: none;
+  text-align: center;
 }
 
 .read-more-button:hover {
@@ -233,6 +262,7 @@ html {
   padding: 0;
   margin: 0 0 100px 0;
   font-family: Arial, sans-serif;
+  border-bottom: 8px solid #000;
 }
 
 #goals > div {
@@ -265,8 +295,9 @@ html {
   padding: 30px 77px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
+  gap: 4rem;
   flex: 1;
+  margin: 3rem 0 5rem 0;
 }
 
 .goals-items img[alt="white-grid-background"] {
@@ -317,7 +348,7 @@ html {
 
 /* Events Section */
 #events {
-  padding: 4rem 0 0 0;
+  padding: 0;
   background-color: #fff;
   overflow-x: hidden;
 }
@@ -368,7 +399,7 @@ html {
 table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #FFC847;
+  background-color: #ffc847;
   font-family: "Space Grotesk", sans-serif;
   font-weight: bold;
 }
@@ -390,7 +421,7 @@ th:nth-child(4) {
 }
 
 th {
-  background-color: #FFC847;
+  background-color: #ffc847;
   color: #000;
   padding: 1rem;
   text-align: center;
@@ -404,7 +435,7 @@ td {
   border: 1px solid #000;
   color: #000;
   vertical-align: top;
-  background-color: #FFC847;
+  background-color: #ffc847;
 }
 
 .event-name {
@@ -444,6 +475,8 @@ td {
   padding: 1rem;
   background-color: #000;
   color: #fff;
+  z-index: 1;
+  position: relative;
 }
 
 .organization-ribbon span {
@@ -508,11 +541,11 @@ td {
 }
 
 .officer-box-yellow {
-  background-color: #FFD24C;
+  background-color: #ffd24c;
 }
 
 .officer-box-green {
-  background-color: #4DC7B0;
+  background-color: #4dc7b0;
 }
 
 .officer-paws {
@@ -577,7 +610,7 @@ td {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #FFD24C;
+  background-color: #ffd24c;
   border: 1px solid black;
   color: #000;
   padding: 12px 30px;
@@ -591,7 +624,7 @@ td {
   transform: translateY(-2px);
 }
 
-.arrow-icon {
+i {
   margin-left: 10px;
   transform: rotate(-45deg);
 }
@@ -615,6 +648,10 @@ td {
   padding: 10px 15px;
   border: 1px solid #000;
   margin-top: auto;
+}
+
+.back-to-top:hover {
+  background: #888686;
 }
 
 .back-to-top a {
@@ -686,15 +723,15 @@ footer {
   justify-content: center;
   width: 36px;
   height: 36px;
-  border: 1px solid #4DC7B0;
-  color: #4DC7B0;
+  border: 1px solid #4dc7b0;
+  color: #4dc7b0;
   text-decoration: none;
   position: relative;
-  box-shadow: 3px 3px 0 #4DC7B0;
+  box-shadow: 3px 3px 0 #4dc7b0;
 }
 
 .social-icon:hover {
-  background-color: #4DC7B0;
+  background-color: #4dc7b0;
   color: #000;
   box-shadow: 3px 3px 0 #ccc;
   transform: translateY(-3px);
@@ -756,7 +793,7 @@ footer {
 }
 
 .footer-links a:hover {
-  color: #4DC7B0;
+  color: #4dc7b0;
 }
 
 .copyright {
