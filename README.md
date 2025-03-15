@@ -25,7 +25,7 @@
 <!-- PROJECT DEMO -->
 ## Demo
 <div align="center">
-  <img src="" alt="Demo" width="80%">
+  <img src="https://github.com/user-attachments/assets/19199379-cfa6-4a2a-a260-e3dc6ef5cd5e" alt="Demo" width="80%">
 </div>
 
 <!-- ABOUT THE PROJECT -->
