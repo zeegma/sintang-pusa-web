@@ -63,7 +63,7 @@ This repository contains a semantic website created for Sintang Pusa Organizatio
 <!-- FEATURES -->
 ## Features
 ### Sections:
-- **Navigation Bar (Header):** Contains the logo, main navigation links, and a "Join Our Mission" call-to-action button.
+- **Navigation Bar:** Contains the logo, main navigation links, and a "Join Our Mission" call-to-action button.
 - **Hero Section:** Features a prominent headline "For the Cats of PUP, We Serve" with a description and image of a cat named Pogi.
 - **Story Section:** Explains the organization's history, founded in 2019 as a Facebook page that grew into a movement after the loss of a tabby cat named Pogi.
 - **Goals Section:** Showcases six main objectives.
@@ -121,7 +121,7 @@ This repository contains a semantic website created for Sintang Pusa Organizatio
         <td><img src="https://avatars.githubusercontent.com/u/143507354?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
         <td><a href="https://github.com/krislette">krislette</a></td>
         <td>
-          <b>CSS Designer, HTML Structure:</b> Acelle structured the Footer and Join Us sections. She also designed the Events, Teams, and Join Us parts of the website and deployed it.
+          <b>CSS Designer, HTML Structure:</b> Acelle structured the Footer and Join Us sections. She also designed the Events, Teams, Join Us, and Footer parts of the website and deployed it.
         </td>
       </tr>
       <tr>
